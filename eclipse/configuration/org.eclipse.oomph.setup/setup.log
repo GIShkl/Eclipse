@@ -1,0 +1,177 @@
+[2018-05-28 16:05:49] Executing bootstrap tasks
+[2018-05-28 16:05:49] Java(TM) SE Runtime Environment 1.8.0_171-b11
+[2018-05-28 16:05:49] Product org.eclipse.products.epp.package.java.oxygen
+[2018-05-28 16:05:49] Bundle org.eclipse.oomph.setup 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-05-28 16:05:49] Bundle org.eclipse.oomph.setup.core 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-05-28 16:05:49] Bundle org.eclipse.oomph.setup.p2 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-05-28 16:05:49] Performing P2 Director (Eclipse IDE for Java Developers (Oxygen))
+[2018-05-28 16:05:49] Offline = false
+[2018-05-28 16:05:49] Mirrors = true
+[2018-05-28 16:05:49] Resolving 25 requirements from 3 repositories to L:\Software\Eclipse\eclipse
+[2018-05-28 16:05:49] Requirement epp.package.java [4.7.0,4.8.0)
+[2018-05-28 16:05:49] Requirement org.eclipse.platform.feature.group [4.7.0,4.8.0)
+[2018-05-28 16:05:49] Requirement org.eclipse.rcp.feature.group [4.7.0,4.8.0)
+[2018-05-28 16:05:49] Requirement org.eclipse.buildship.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.eclemma.feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.egit.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.egit.mylyn.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.jdt.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.jgit.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.m2e.feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.m2e.logback.feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.mylyn.git.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.mylyn.hudson.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.mylyn.java_feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.mylyn_feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.recommenders.mylyn.rcp.feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.recommenders.news.rcp.feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.recommenders.rcp.feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.recommenders.snipmatch.rcp.feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2018-05-28 16:05:49] Requirement org.eclipse.oomph.setup.feature.group
+[2018-05-28 16:05:49] Repository http://download.eclipse.org/technology/epp/packages/oxygen
+[2018-05-28 16:05:49] Repository http://download.eclipse.org/releases/oxygen/201804111000
+[2018-05-28 16:05:49] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-05-28 16:06:20] ERROR: org.eclipse.equinox.p2.transport.ecf code=1006 Unknown Host: http://download.eclipse.org/releases/oxygen/201804111000/content.xml.xz
+java.net.UnknownHostException: ftp.fau.de
+  at java.net.InetAddress.getAllByName0(Unknown Source)
+  at java.net.InetAddress.getAllByName(Unknown Source)
+  at java.net.InetAddress.getAllByName(Unknown Source)
+  at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+  at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+  at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+  at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+  at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+  at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+  at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+  at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+  at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+  at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+  at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+  at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+  at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+  at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+[2018-05-28 16:06:20] 
+[2018-05-28 16:11:57] Executing bootstrap tasks
+[2018-05-28 16:11:57] Java(TM) SE Runtime Environment 1.8.0_171-b11
+[2018-05-28 16:11:57] Product org.eclipse.products.epp.package.java.oxygen
+[2018-05-28 16:11:57] Bundle org.eclipse.oomph.setup 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-05-28 16:11:57] Bundle org.eclipse.oomph.setup.core 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-05-28 16:11:57] Bundle org.eclipse.oomph.setup.p2 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-05-28 16:11:57] Performing P2 Director (Eclipse IDE for Java Developers (Oxygen))
+[2018-05-28 16:11:57] Offline = false
+[2018-05-28 16:11:57] Mirrors = true
+[2018-05-28 16:11:57] Resolving 25 requirements from 3 repositories to L:\Software\Eclipse\eclipse
+[2018-05-28 16:11:57] Requirement epp.package.java [4.7.0,4.8.0)
+[2018-05-28 16:11:57] Requirement org.eclipse.platform.feature.group [4.7.0,4.8.0)
+[2018-05-28 16:11:57] Requirement org.eclipse.rcp.feature.group [4.7.0,4.8.0)
+[2018-05-28 16:11:57] Requirement org.eclipse.buildship.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.eclemma.feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.egit.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.egit.mylyn.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.jdt.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.jgit.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.m2e.feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.m2e.logback.feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.mylyn.git.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.mylyn.hudson.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.mylyn.java_feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.mylyn_feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.recommenders.mylyn.rcp.feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.recommenders.news.rcp.feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.recommenders.rcp.feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.recommenders.snipmatch.rcp.feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2018-05-28 16:11:57] Requirement org.eclipse.oomph.setup.feature.group
+[2018-05-28 16:11:57] Repository http://download.eclipse.org/technology/epp/packages/oxygen
+[2018-05-28 16:11:57] Repository http://download.eclipse.org/releases/oxygen/201804111000
+[2018-05-28 16:11:57] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-05-28 16:12:21] ERROR: org.eclipse.equinox.p2.transport.ecf code=1006 Unknown Host: http://download.eclipse.org/releases/oxygen/201804111000/content.xml.xz
+java.net.UnknownHostException: ftp.fau.de
+  at java.net.InetAddress.getAllByName0(Unknown Source)
+  at java.net.InetAddress.getAllByName(Unknown Source)
+  at java.net.InetAddress.getAllByName(Unknown Source)
+  at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+  at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+  at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+  at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+  at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+  at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+  at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+  at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+  at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+  at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+  at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+  at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+  at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+  at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+[2018-05-28 16:12:21] 
+[2018-05-28 16:16:04] Executing bootstrap tasks
+[2018-05-28 16:16:04] Java(TM) SE Runtime Environment 1.8.0_171-b11
+[2018-05-28 16:16:04] Product org.eclipse.products.epp.package.java.oxygen
+[2018-05-28 16:16:04] Bundle org.eclipse.oomph.setup 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-05-28 16:16:04] Bundle org.eclipse.oomph.setup.core 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-05-28 16:16:04] Bundle org.eclipse.oomph.setup.p2 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-05-28 16:16:04] Performing P2 Director (Eclipse IDE for Java Developers (Oxygen))
+[2018-05-28 16:16:04] Offline = false
+[2018-05-28 16:16:04] Mirrors = true
+[2018-05-28 16:16:04] Resolving 25 requirements from 3 repositories to L:\Software\Eclipse\eclipse
+[2018-05-28 16:16:04] Requirement epp.package.java [4.7.0,4.8.0)
+[2018-05-28 16:16:04] Requirement org.eclipse.platform.feature.group [4.7.0,4.8.0)
+[2018-05-28 16:16:04] Requirement org.eclipse.rcp.feature.group [4.7.0,4.8.0)
+[2018-05-28 16:16:04] Requirement org.eclipse.buildship.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.eclemma.feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.egit.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.egit.mylyn.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.jdt.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.jgit.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.m2e.feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.m2e.logback.feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.mylyn.git.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.mylyn.hudson.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.mylyn.java_feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.mylyn_feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.recommenders.mylyn.rcp.feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.recommenders.news.rcp.feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.recommenders.rcp.feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.recommenders.snipmatch.rcp.feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2018-05-28 16:16:04] Requirement org.eclipse.oomph.setup.feature.group
+[2018-05-28 16:16:04] Repository http://download.eclipse.org/technology/epp/packages/oxygen
+[2018-05-28 16:16:04] Repository http://download.eclipse.org/releases/oxygen/201804111000
+[2018-05-28 16:16:04] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-05-28 16:16:34] ERROR: org.eclipse.equinox.p2.transport.ecf code=1006 Unknown Host: http://download.eclipse.org/releases/oxygen/201804111000/content.xml.xz
+java.net.UnknownHostException: ftp.fau.de
+  at java.net.InetAddress.getAllByName0(Unknown Source)
+  at java.net.InetAddress.getAllByName(Unknown Source)
+  at java.net.InetAddress.getAllByName(Unknown Source)
+  at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+  at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+  at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+  at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+  at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+  at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+  at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+  at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+  at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+  at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+  at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+  at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+  at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+  at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+[2018-05-28 16:16:34] 
